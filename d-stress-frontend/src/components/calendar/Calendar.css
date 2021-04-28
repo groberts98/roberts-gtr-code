@@ -1,0 +1,136 @@
+.calendar {
+    position: relative;
+    margin: 25px auto;
+    width: 80%;
+    border: 2px solid black;
+    font-size: 0.9rem;
+}
+
+.navigation-bar {
+    background-color: #299c9d;
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 2px solid black;
+}
+
+.year {
+    float: right;
+}
+
+.calendar-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: black;
+}
+
+.calendar-table-header {
+    background-color: #616161;
+    color: white;
+    border: 2px solid black;
+}
+
+.calendar-table-content {
+    background-color: grey;
+}
+
+.calendar-content {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.add-icon {
+    height: 5%;
+    width: 5%;
+    min-height: 20px;
+    min-width: 20px;
+    max-height: 30px;
+    max-width: 30px;
+    margin-top: 4px;
+    margin-right: 4px;
+    float: right;
+}
+
+.day {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    min-height: 50px;
+}
+
+.day:hover {
+    background-color: #Daf4f9;
+}
+
+.day-empty {
+    background-color: rgba(255, 255, 255, 0.805);
+}
+
+.day-empty:hover {
+    background-color: #Daf4f9;
+}
+
+.day-current {
+    background-color: #299c9d;
+    text-align: center;
+}
+
+.day-current:hover {
+    background-color: #Daf4f9;
+}
+
+.day-red {
+    background-color: rgba(255, 0, 0, 0.808);
+    text-align: center;
+}
+  
+.day-oragne {
+    background-color: rgba(255, 166, 0, 0.808);
+    text-align: center;
+}
+
+.day-yellow {
+    background-color: rgba(255, 255, 0, 0.808);
+    text-align: center;
+}
+
+.day-purple {
+    background-color: rgba(128, 0, 128, 0.808);
+    text-align: center;
+}
+
+.day-blue {
+    background-color: rgba(0, 0, 255, 0.808);
+    text-align: center;
+}
+
+.day-green {
+    background-color: rgba(0, 128, 0, 0.808);
+    text-align: center;
+}
+
+.day-red:hover {
+    background-color: #Daf4f9
+}
+  
+.day-oragne:hover {
+    background-color: #Daf4f9
+}
+
+.day-yellow:hover {
+    background-color: #Daf4f9
+}
+
+.day-purple:hover {
+    background-color: #Daf4f9
+}
+
+.day-blue:hover {
+    background-color: #Daf4f9
+}
+
+.day-green:hover {
+    background-color: #Daf4f9
+}

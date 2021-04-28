@@ -1,0 +1,53 @@
+.field {
+    width: 225px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 2px solid black;
+    transition: 0.3s all;
+  }
+
+  .field.focussed input {
+    padding: 8px 16px 8px 16px;
+  }
+
+  .field.focussed input + label {
+    top: 2%;
+    opacity: 1;
+    color: #299c9d;
+  }
+  
+  .field input {
+    width: 184px;
+    height: 56px;
+    position: relative;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    box-shadow: 0px 4px 20px 0px transparent;
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+  }
+
+  .field input + label {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #616161;
+    opacity: 0;
+    transition: 0.1s all ease-in-out;
+  }

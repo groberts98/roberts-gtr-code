@@ -1,0 +1,12 @@
+.insightsButton {
+    position: fixed;
+    top: 65%;
+    left: 20%;
+    height: 10%;
+    border: 4px solid #616161;
+    background-color: #299c9d;
+    color: white;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 0.7rem;
+    border-radius: 50%
+}

@@ -1,0 +1,9 @@
+.confirmation {
+    position: relative;
+    width: 75%;
+    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+}

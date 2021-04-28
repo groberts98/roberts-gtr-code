@@ -1,0 +1,78 @@
+.slider-container {
+    position: relative;
+    width: 225px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    transition: 0.3s all;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#green {
+    background-color: rgba(0, 128, 0, 0.514);
+}
+
+#blue {
+    background-color: rgba(0, 0, 255, 0.514);
+}
+
+#purple {
+    background-color: rgba(128, 0, 128, 0.514);
+}
+
+#yellow {
+    background-color: rgba(255, 255, 0, 0.514);
+}
+
+#orange {
+    background-color: rgba(255, 166, 0, 0.514);
+}
+
+#red {
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+.slider-container label {
+    position: absolute;
+    padding-left: 16px;
+    left: 0;
+    top: 10px;
+    color: black;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type=range] {
+    position: relative;
+    top: 40px;
+    width: 90%;
+    -webkit-appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+::-webkit-slider-runnable-track {
+    background: white;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background: black;
+    box-shadow: -100vw 0 0 100vw #299c9d;
+    border-left: .5px solid black;
+    border-right: .5px solid black;
+}

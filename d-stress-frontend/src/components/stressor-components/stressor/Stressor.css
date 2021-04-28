@@ -1,0 +1,71 @@
+.stressor {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+    min-height: 300px;
+    top: 5%;
+    height: 60%;
+    width: 70%;
+    max-width: 500px;
+    font-size: 1.2rem;
+    line-height: 180%;
+}
+
+hr {
+    height: 2px;
+    background-color: #616166;
+}
+
+.stressor-name {
+    margin-right: 50px;
+}
+
+.back-arrow {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    margin-top: 5%;
+} 
+
+#stressor-square {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 2px solid #616161;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#stressor-square.red {
+    background-color: rgba(255, 0, 0, 0.808);
+}
+
+#stressor-square.orange {
+    background-color: rgba(255, 166, 0, 0.808);
+}
+
+#stressor-square.yellow {
+    background-color: rgba(255, 255, 0, 0.808);
+}
+
+#stressor-square.purple {
+    background-color: rgba(128, 0, 128, 0.808);
+}
+
+#stressor-square.blue {
+    background-color: rgba(0, 0, 255, 0.808);
+}
+
+#stressor-square.green {
+    background-color: rgba(0, 128, 0, 0.808);
+}

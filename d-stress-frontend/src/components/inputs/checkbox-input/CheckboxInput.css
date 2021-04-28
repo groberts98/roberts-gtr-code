@@ -1,0 +1,33 @@
+.checkbox-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    width: 209px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 2px solid black;
+    transition: 0.3s all;
+    padding-left: 16px;
+}
+
+.checkbox-input-label {
+    position: absolute;
+    padding-left: 16px;
+    left: 0;
+    top: 15px;
+    color: black;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkbox-input {
+    position: absolute;
+    top: 23%;
+    left: 85%;
+    height: 17px;
+    width: 17px;
+}

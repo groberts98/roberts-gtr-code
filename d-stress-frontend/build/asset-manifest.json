@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84585765.chunk.css",
+    "main.js": "/static/js/main.b893b482.chunk.js",
+    "main.js.map": "/static/js/main.b893b482.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a30c331.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a30c331.js.map",
+    "static/css/2.00850458.chunk.css": "/static/css/2.00850458.chunk.css",
+    "static/js/2.3c918220.chunk.js": "/static/js/2.3c918220.chunk.js",
+    "static/js/2.3c918220.chunk.js.map": "/static/js/2.3c918220.chunk.js.map",
+    "static/js/3.305a66e6.chunk.js": "/static/js/3.305a66e6.chunk.js",
+    "static/js/3.305a66e6.chunk.js.map": "/static/js/3.305a66e6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.00850458.chunk.css.map": "/static/css/2.00850458.chunk.css.map",
+    "static/css/main.84585765.chunk.css.map": "/static/css/main.84585765.chunk.css.map",
+    "static/js/2.3c918220.chunk.js.LICENSE.txt": "/static/js/2.3c918220.chunk.js.LICENSE.txt",
+    "static/media/DStressLogo.192cce09.png": "/static/media/DStressLogo.192cce09.png",
+    "static/media/analytics.55e6f53c.png": "/static/media/analytics.55e6f53c.png",
+    "static/media/barChart.df60828a.png": "/static/media/barChart.df60828a.png",
+    "static/media/lineChart.2c524c4c.png": "/static/media/lineChart.2c524c4c.png",
+    "static/media/pieChart.5ad4f3a3.png": "/static/media/pieChart.5ad4f3a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a30c331.js",
+    "static/css/2.00850458.chunk.css",
+    "static/js/2.3c918220.chunk.js",
+    "static/css/main.84585765.chunk.css",
+    "static/js/main.b893b482.chunk.js"
+  ]
+}

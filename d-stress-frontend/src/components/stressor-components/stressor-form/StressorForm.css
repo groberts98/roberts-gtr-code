@@ -1,0 +1,69 @@
+.form-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.stressor-form {
+    position: relative;
+    top: 2%;
+    text-align: center;
+}
+
+.stressor-form p {
+    color: red;
+}
+
+.date-picker {
+    position: relative;
+    width: 209px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s all;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 16px;
+}
+
+.info-icon {
+    width: 25x;
+    height: 25px;
+    left: 0;
+    margin-bottom: 5px;
+}
+
+.tooltip-width {
+    max-width: 80%;
+}
+
+#green {
+    background-color: rgba(0, 128, 0, 0.514);
+}
+
+#blue {
+    background-color: rgba(0, 0, 255, 0.514);
+}
+
+#purple {
+    background-color: rgba(128, 0, 128, 0.514);
+}
+
+#yellow {
+    background-color: rgba(255, 255, 0, 0.514);
+}
+
+#orange {
+    background-color: rgba(255, 166, 0, 0.514);
+}
+
+#red {
+    background-color: rgba(255, 0, 0, 0.514);
+}

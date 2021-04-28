@@ -1,0 +1,8 @@
+.success-screen {
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px
+}
